@@ -19,8 +19,20 @@
     <![endif]-->
   </head>
   <body>
-    @include('includes.nav_master')
-    @yield('content')
+
+    @include('includes.nav_user')
+    <br><br>
+    <div class="container content">
+              <h1>9GAG - GO FUN YOURSELF</h1>
+              <h2>Hey there!</h2><br>
+              Connect with us at social network
+              <a href="/" class="btn btn-primary">Facebook</a>
+              Add us in Your circle
+              <a href="/" class="btn btn-success">Google</a><br>
+              9GAG is your best source of fun.
+              Share anything you find interesting, get real responses from people all over the world, and discover what makes you laugh.
+                  @yield('content')
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

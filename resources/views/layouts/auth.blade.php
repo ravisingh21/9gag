@@ -17,10 +17,38 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+    <style>
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: table;
+        font-weight: 100;
+        font-family: 'Lato';
+        background-color:black ;
+    }
+    </style>
+  </headF
   <body>
-    @include('includes.nav_master')
-    @yield('content')
+
+    <div class="container content">
+              <a href="/"><h1>9GAG - GO FUN YOURSELF</h1></a>
+              <h2>Hey there!</h2><br>
+              Connect with a social network
+              <a href="/" class="btn btn-primary">Facebook</a>
+              <a href="/" class="btn btn-success">Google</a><br>
+              9GAG is your best source of fun.
+              Share anything you find interesting, get real responses from people all over the world, and discover what makes you laugh.
+                  @yield('content')
+    </div>
+
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

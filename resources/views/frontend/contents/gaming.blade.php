@@ -1,11 +1,13 @@
 @extends('layouts.master')
+@section('title')Gaming @endsection
+
 @section('content')
 
 <div class="container col-lg-8  ">
   @for($i=0;$i<=5;$i++)
   <div class="content-code">
     <h1>9GAG</h1>
-    <div><h3>9gag</h3></div>
+    <div><h3>ganing</h3></div>
     "I will be leaving my great business in total in order to fully focus on running the country in order to make America great again," he tweeted in a series of missives sent before dawn. "While I am not mandated to do this under the law, I feel it is visually important, as president, to in no way have a conflict of interest with my various businesses."
 
   He said legal documents are "being crafted which take me completely out of business operations," he added, saying the presidency is "a far more important task!"

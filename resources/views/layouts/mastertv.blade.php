@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>9GAG - @yield('title','Go Fun Yourself')</title>
+    <title> @yield('title')9GAG.tv</title>
 
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     <![endif]-->
   </head>
   <body>
-    @include('includes.nav_master')
+    @include('includes.nav_tv')
     @yield('content')
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
