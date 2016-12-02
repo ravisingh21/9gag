@@ -19,7 +19,7 @@
     <![endif]-->
   </head>
   <body>
-    @include('includes.nav_master')
+    @include('includes.nav_frontend')
     @yield('content')
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

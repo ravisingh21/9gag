@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
-class PageController extends Controller
+class DefaultController extends Controller
 {
     //Frontend
     public function index($category = null)

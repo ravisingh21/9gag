@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.frontend')
 @section('content')
     <div class="col-lg-8 ">
       @for($i=0;$i<=5;$i++)
