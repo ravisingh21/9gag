@@ -4,13 +4,13 @@
       <div class="navbar-header ">
 
         <a class="navbar-brand active" href="/hot">Hot</a>
-        <a class="navbar-brand " href="/trending">Trending</a>
-        <a class="navbar-brand " href="/fresh">Fresh</a>
+        <a class="navbar-brand nav-gag" href="/trending">Trending</a>
+        <a class="navbar-brand nav-gag " href="/fresh">Fresh</a>
 
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="dropdown ">
             <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="caret"></span></a>
@@ -84,7 +84,7 @@
         </li>
         <li >
             <center>
-            <a href="/upload" class="glyphicon glyphicon-plus btn btn-primary btn-gag" type="button">
+            <a href="/upload" class="glyphicon glyphicon-plus btn btn-primary btn-gag1" type="button">
             Upload
             </a>
             </center>

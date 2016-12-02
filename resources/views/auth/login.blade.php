@@ -8,8 +8,8 @@
 
   <form method="post">
     {{ csrf_field() }}
-    <input type="email" name="email" placeholder="Email" required="required" /><br><br>
-      <input type="password" name="password" placeholder="Password" required="required" /><br><br>
+    <input type="email" name="email" placeholder="Email"  /><br><br>
+      <input type="password" name="password" placeholder="Password" /><br><br>
       <input type="submit" class="btn btn-primary btn-block btn-large" value="Log in">
   </form>
 </div>

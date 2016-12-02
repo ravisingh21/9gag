@@ -1,7 +1,8 @@
 @extends('layouts.user_master')
 @section('title') UPLOAD @endsection
 @section('content')
-
+<br><br><br>
+<div class="container content">
 <h1>Upload your file</h1>
 <h3>Post Title</h3>
 <form id="adminform" method="post">
@@ -14,5 +15,5 @@
   <a href="#" class="glyphicon glyphicon-folder-open btn btn-default " type="submit"> Attach File</a>
   <a href="/profile/user" class=" btn btn-lg glyphicon glyphicon-thumbs-up" > Upload</a>
 </form>
-
+</div>
 @endsection

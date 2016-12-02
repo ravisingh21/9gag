@@ -100,12 +100,23 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 }
 
 .btn-gag{
-	margin-right: 100px;
-	margin-top: 5px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+.btn-gag1{
+	margin-top: 10px;
+
 }
 
 .user-tab{
 	margin-left: 100px;
-	padding-left: 150px;
-	padding-right: 200px;
+	margin-right: 100px;
+	padding-left: 100px;
+	padding-right: 100px
+}
+
+.nav-gag{
+	margin-left: 2px;
+	padding-left: 7px;
 }

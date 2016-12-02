@@ -1,8 +1,7 @@
-@extends('layouts.user_master')
+@extends('user.profile')
 @section('title') USER-Posts @endsection
-@section('content')
+@section('data')
 
-@include('includes.tab_user')
 
 
 @endsection

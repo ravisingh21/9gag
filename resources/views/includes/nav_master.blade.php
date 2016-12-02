@@ -59,7 +59,7 @@
          <li><a href="/login">Log in</a></li>
           <li >
             <center>
-            <a href="/signup" class="btn btn-primary " type="button">
+            <a href="/signup" class="btn btn-primary btn-gag1" type="button">
               Sign up
             </a>
             </center>

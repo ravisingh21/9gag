@@ -10,7 +10,7 @@
         <!--navbar right-->
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <a href="/best-ads" class="glyphicon glyphicon-plus"role="button"></a>
+            <a href="/best-ads" class="glyphicon glyphicon-plus btn-gag"role="button"></a>
           </li>
          <li><a href="/login" class=" btn-lg btn-primary btn-gag">
            Sign in with 9GAG
