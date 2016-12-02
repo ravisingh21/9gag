@@ -9,6 +9,9 @@ use App\Http\Requests;
 class ProfileController extends Controller
 {
     //
+    public function user(){
+      return view('user.index');
+    }
     public function profile(){
       return view('user.profile');
     }
@@ -25,4 +28,8 @@ class ProfileController extends Controller
     public function comments(){
       return view('user.profile.comments');
     }
+    public function notifications(){
+      return view('user.profile.notifications');
+    }
+
 }

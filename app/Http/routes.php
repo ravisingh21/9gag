@@ -13,21 +13,27 @@
 Route::get('/login','AuthController@login');
 Route::post('/login','AuthController@postlogin');
 
-Route::group(array('prefix' => '/profile/user'), function(){
-  Route::get('/','ProfileController@profile');
+Route::group(array('prefix' => '/signup'), function(){
+  Route::get('/','AuthController@signup');
+  Route::get('/email','AuthController@email');
+  Route::post('/email','AuthController@postsignup');
+
+});
+
+
+/*user routes*/
+Route::group(array('prefix' => '/user'), function(){
+  Route::get('/','ProfileController@user');
+  Route::get('/profile','ProfileController@profile');
   Route::get('/overview','ProfileController@overview');
   Route::get('/posts','ProfileController@posts');
   Route::get('/upvotes','ProfileController@upvotes');
   Route::get('/comments','ProfileController@comments');
+  Route::get('/notifications','ProfileController@notifications');
 
 });
+/*---*/
 
-
-Route::group(array('prefix' => '/signup'), function(){
-  Route::get('/','AuthController@signup');
-  Route::get('/email','AuthController@email');
-
-});
 
 Route::group(array('prefix' => '/'), function(){
   Route::get('/','PageController@index');
@@ -45,6 +51,7 @@ Route::group(array('prefix' => '/'), function(){
   Route::get('/school','PageController@school');
   Route::get('/funny','PageController@funny');
   Route::get('/upload','PageController@upload');
+  Route::post('/upload','PageController@postupload');
 
 });
 

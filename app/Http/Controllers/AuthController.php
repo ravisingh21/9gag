@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Http\RedirectResponse;
 use App\Http\Requests;
 
 class AuthController extends Controller
@@ -20,8 +20,10 @@ class AuthController extends Controller
       return view('auth.login');
     }
     public function postlogin(){
-      return view('user.index');
+      return redirect('/user');
     }
-    
+    public function postsignup(){
+      return redirect('/user');
+    }
 
 }
