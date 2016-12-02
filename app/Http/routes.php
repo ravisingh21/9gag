@@ -36,23 +36,7 @@ Route::group(array('prefix' => '/user'), function(){
 
 
 Route::group(array('prefix' => '/'), function(){
-  Route::get('/','PageController@index');
-  Route::get('/hot','PageController@index');
-  Route::get('/trending','PageController@trending');
-  Route::get('/fresh','PageController@fresh');
-  Route::get('/tv','PageController@tv');
-  Route::get('/timely','PageController@timely');
-  Route::get('/girl','PageController@girl');
-  Route::get('/nsfw','PageController@nsfw');
-  Route::get('/gif','PageController@gif');
-  Route::get('/wtf','PageController@wtf');
-  Route::get('/gaming','PageController@gaming');
-  Route::get('/apps','PageController@apps');
-  Route::get('/school','PageController@school');
-  Route::get('/funny','PageController@funny');
-  Route::get('/upload','PageController@upload');
-  Route::post('/upload','PageController@postupload');
-
+  Route::get('{category?}','PageController@index');
 });
 
 Route::group(array('prefix' => '/tv/channel'), function(){

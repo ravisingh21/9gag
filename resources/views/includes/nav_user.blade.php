@@ -31,8 +31,6 @@
               <li><a href="/ask9gag">Ask 9GAG</a></li>
             </ul>
           </li>
-                        <!--new tab to be open-->
-          <li ><a  href="/tv/">Video</a></li><!----nav changing in new tab--->
           <li ><a href="/timely" class="glyphicon glyphicon-hourglass">Timely</a></li>
           <li ><a  href="/girl">Girl</a></li>
           <li ><a  href="/nsfw">NSFW</a></li>
